@@ -1,0 +1,78 @@
+nody {
+    margin: 0;
+}
+.navbar-container{
+    display: flex;
+    background-color: 0;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.brand-logo img{
+    height: 60px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.content {
+    display: flex;
+    margin: 0 100px;
+    gap: 50px;
+    align-items: center;
+}
+.content-image img{
+    height: 400px;
+    padding: 0px;
+    border: 0px;
+}
+
+#more-info-btn{
+    border: 1px;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 60px;
+}
+
+.main-header{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+.social-media{
+    position: absolute;
+    top: 250px;
+    background-color: red;
+    border: 1px;
+    border-radius: 10px 0 0 10px;
+    padding: 4px 0px;
+    right: -50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-50px);
+}
+.social-media ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.social-media li {
+    text-align: center;
+    margin: 6px 0px;
+}
+.social-media ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 7px 9px;
+}
